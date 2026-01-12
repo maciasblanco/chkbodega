@@ -1,0 +1,86 @@
+# =============================================
+# GITIGNORE OPTIMIZADO - SISTEMA GED Yii2
+# =============================================
+
+# ✅ DEPENDENCIAS (MANTENER)
+/vendor/
+composer.phar
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ✅ ARCHIVOS DE ENTORNO Y CONFIGURACIÓN LOCAL
+/.env
+/.env.local
+/.env.*.local
+/env/
+/environments/
+
+# ✅ ARCHIVOS DE SISTEMA OPERATIVO
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ✅ ARCHIVOS DE IDEs Y EDITORES
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.buildpath
+.settings/
+nbproject/
+*.sublime-project
+*.sublime-workspace
+
+# ✅ LOGS Y ARCHIVOS TEMPORALES
+/runtime/*
+!/runtime/.gitkeep
+/web/assets/*
+!/web/assets/.gitkeep
+/log/
+*.log
+
+# ✅ ARCHIVOS DE PRUEBA Y DESARROLLO
+/tests/_output/*
+/tests/_support/_generated
+phpunit.xml
+phpunit.phar
+
+# ✅ ARCHIVOS DE SUBIDA Y BACKUPS
+*.backup
+*.bak
+*.tmp
+*.temp
+
+# ✅ VAGRANT
+/.vagrant
+/Vagrantfile
+
+# ✅ DOCKER (si usas)
+docker-compose.override.yml
+
+# ✅ ARCHIVOS DE USUARIO PERSONALES
+*.user.ini
+
+# =============================================
+# ⚠️ ARCHIVOS QUE NO DEBEN IGNORARSE:
+# =============================================
+# composer.json          ✅ DEBE estar en repo
+# composer.lock          ✅ DEBE estar en repo  
+# package.json           ✅ DEBE estar en repo (si usas npm)
+# yii                    ✅ DEBE estar en repo
+# config/                ✅ DEBE estar en repo
+# migrations/            ✅ DEBE estar en repo
+# models/                ✅ DEBE estar en repo
+# views/                 ✅ DEBE estar en repo
+# controllers/           ✅ DEBE estar en repo
+# web/                   ✅ DEBE estar en repo (excepto assets)
+# =============================================

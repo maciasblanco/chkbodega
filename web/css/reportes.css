@@ -1,0 +1,98 @@
+/* =================================================================
+ * ged.css - SISTEMA GED CSS UNIFICADO - VERSIÓN CORREGIDA
+ * CORRECCIONES: Scroll vertical eliminado y z-index solucionado
+ * MEJORAS: Menú móvil completamente funcional
+ * ================================================================= */
+
+/* ===== VARIABLES CSS UNIFICADAS ===== */
+:root {
+  /* Colores Principales GED */
+  --ged-primary: #2c5aa0;
+  --ged-primary-dark: #1e3a8a;
+  --ged-secondary: #28a745;
+  --ged-secondary-dark: #1e7e34;
+  --ged-danger: #dc3545;
+  --ged-warning: #ffc107;
+  --ged-info: #17a2b8;
+  --ged-light: #f8f9fa;
+  --ged-dark: #343a40;
+  
+  /* Colores Personalizados */
+  --ged-beige: #f5f5dc;
+  --ged-purple: #5B21B6;
+  --ged-orange: #fd7e14;
+  --ged-teal: #20c997;
+  --ged-purple-light: #8e44ad;
+  --ged-purple-dark: #6c3483;
+  
+}
+/* ===== ESTILOS PARA EL MÓDULO DE REPORTES ===== */
+
+/* Estilos para la vista de reportes de atletas */
+.reportes-atletas .progress {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+}
+
+.reportes-atletas .info-box {
+    color: white !important;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.reportes-atletas .info-box:hover {
+    transform: translateY(-2px);
+}
+
+.reportes-atletas .info-box .info-box-text,
+.reportes-atletas .info-box .info-box-number {
+    color: white !important;
+}
+
+.reportes-atletas .table th {
+    border-top: none;
+    background-color: #f8f9fa;
+}
+
+.reportes-atletas .badge-status {
+    font-size: 0.75em;
+}
+
+.reportes-atletas .progress-bar-container {
+    position: relative;
+}
+
+.reportes-atletas .progress-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 0.8em;
+    color: #000;
+    text-shadow: 1px 1px 1px rgba(255,255,255,0.7);
+}
+
+/* Estilos para las tarjetas de estadísticas */
+.reportes-atletas .card-border-primary {
+    border-color: #2c5aa0 !important;
+}
+
+.reportes-atletas .card-border-info {
+    border-color: #17a2b8 !important;
+}
+
+/* Estilos para la tabla */
+.reportes-atletas .table-hover tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.075);
+}
+
+/* Estilos para los badges */
+.reportes-atletas .badge {
+    font-size: 85%;
+}
+
+/* Estilos para los tooltips */
+.reportes-atletas .tooltip {
+    font-size: 0.875rem;
+}

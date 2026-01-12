@@ -1,0 +1,49 @@
+
+.marker-cluster {
+    background-clip: padding-box;
+    border-radius: 20px;
+}
+.marker-cluster div {
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    margin-top: 5px;
+    text-align: center;
+    border-radius: 15px;
+    font: 12px "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+.marker-cluster span {
+    line-height: 30px;
+}
+
+.escuela-popup {
+    min-width: 250px;
+}
+
+.escuela-popup img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.legend-items .legend-item {
+    font-size: 0.9rem;
+}
+
+#lista-escuelas .escuela-item:hover {
+    background-color: #f8f9fa;
+    cursor: pointer;
+}
+
+#lista-escuelas .escuela-item.active {
+    background-color: #007bff;
+    color: white;
+}
+
+.leaflet-popup-content {
+    margin: 8px 12px;
+}
+
+.escuela-info {
+    font-size: 0.9rem;
+}
